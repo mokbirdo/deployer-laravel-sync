@@ -1,0 +1,23 @@
+{
+  "name": "mokbirdo/deployer-laravel-sync",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "peresmishnyk",
+      "email": "michkire@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "deployer/deployer": "^6.3"
+  },
+  "require": {
+    "mokbirdo/laravel-mysql-backup": "1.*"
+  },
+  "autoload": {
+    "files": [
+      "autoload.php"
+    ]
+  }
+}
