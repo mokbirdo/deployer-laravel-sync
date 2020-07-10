@@ -1,11 +1,6 @@
 <?php
 
-use function Deployer\cd;
-use function Deployer\desc;
-use function Deployer\download;
-use function Deployer\parse;
-use function Deployer\run;
-use function Deployer\task;
+namespace Deployer;
 
 desc('Sync Remote to Local');
 task('sync:down', ['sync:down:storage', 'sync:down:db']);
